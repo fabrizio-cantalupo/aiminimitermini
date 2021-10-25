@@ -4237,7 +4237,6 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #007bff;
 }
 
 .nav-fill > .nav-link,
@@ -4577,9 +4576,9 @@ input[type="button"].btn-block {
   color: rgba(0, 0, 0, 0.9);
 }
 
-.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-  color: rgba(0, 0, 0, 0.9);
-}
+/* .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+  color: #BEBBBB;
+} */
 
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0, 0.5);
@@ -4625,8 +4624,8 @@ input[type="button"].btn-block {
   color: #fff;
 }
 
-.navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-  color: #fff;
+.navbar-brand:hover {
+  color: #BEBBBB;
 }
 
 .navbar-dark .navbar-nav .nav-link {

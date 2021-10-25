@@ -430,6 +430,7 @@ input[type='checkbox'] {
 .navbar .navbar-brand {
 	padding-top: 0.25rem;
 	padding-bottom: 0.25rem;
+	transition: all 0.2s ease;
 }
 
 .navbar .logo-image img {
@@ -475,15 +476,15 @@ input[type='checkbox'] {
 .navbar .nav-item .nav-link {
 	padding-top: 0.625rem;
 	padding-bottom: 0.625rem;
-	color: #c5c3f0;
+	color: #fff;
 	text-decoration: none;
 	transition: all 0.2s ease;
 }
 
 .navbar .nav-item.dropdown.show .nav-link,
 .navbar .nav-item .nav-link:hover,
-.navbar .nav-item .nav-link.active {
-	color: #ffffff;
+.navbar .nav-item .nav-link.active .navbar-brand:hover {
+	color: #BEBBBB;
 }
 
 .navbar .social-icons {
