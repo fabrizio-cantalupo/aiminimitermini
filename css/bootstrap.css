@@ -543,6 +543,7 @@ pre code {
 }
 
 .card {
+  width: 30em;
   margin: 0 auto; /* Added */
   float: none; /* Added */
   margin-bottom: 10px; /* Added */
@@ -4836,6 +4837,12 @@ input[type="button"].btn-block {
 
 .card-group > .card {
   margin-bottom: 15px;
+}
+
+@media (max-width: 576px) {
+  .card {
+    width: 20em;
+  }
 }
 
 @media (min-width: 576px) {
