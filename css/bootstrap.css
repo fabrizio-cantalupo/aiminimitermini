@@ -2459,6 +2459,7 @@ textarea.form-control {
 
 .btn {
   display: inline-block;
+  width: 100%;
   text-decoration: none;
   font-weight: 400;
   color: black;
@@ -5098,12 +5099,6 @@ a.badge:hover, a.badge:focus {
   top: -1px;
 }
 
-@media (max-width: 576px) {
-  .btn {
-  width: 100%;
-  }
-}
-
 .badge-pill {
   padding-right: 0.6em;
   padding-left: 0.6em;
@@ -6394,7 +6389,13 @@ a.close.disabled {
 
 .carousel {
   position: relative;
+  /* width: 50em; */
 }
+
+/* .carousel-inner > .item > img {
+  width:640px;
+  height:360px;
+} */
 
 .carousel.pointer-event {
   -ms-touch-action: pan-y;
