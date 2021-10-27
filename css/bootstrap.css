@@ -2474,7 +2474,7 @@ textarea.form-control {
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   line-height: 1.5;
-  border-radius: 0.25rem;
+  border-radius: 2rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
@@ -4690,7 +4690,7 @@ input[type="button"].btn-block {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+  border-radius: 2rem;
 }
 
 .card > hr {
@@ -4796,7 +4796,6 @@ input[type="button"].btn-block {
 .card-img-bottom {
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  width: 60%;
 }
 
 .card-img,
@@ -4805,6 +4804,10 @@ input[type="button"].btn-block {
   border-top-right-radius: calc(0.25rem - 1px);
 }
 
+.card-img-top {
+  border-radius: 2rem 2rem 0 0;
+  width: 100%;
+}
 .card-img,
 .card-img-bottom {
   border-bottom-right-radius: calc(0.25rem - 1px);
