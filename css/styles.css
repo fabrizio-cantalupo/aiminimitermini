@@ -1110,6 +1110,7 @@ a:hover.back-to-top {
 		margin-right: 0;
 		margin-left: 0.25rem;
 	}
+
 	/* end of navigation */
 	
 
@@ -1300,4 +1301,43 @@ a:hover.back-to-top {
 }
 .star {
 	width: 1em;
+}
+
+.container-indice {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media (min-width: 1501px) {
+	.container-indice {
+		display: flex;
+		width: 50%;
+	}	
+}
+
+@media (max-width: 1500px) {
+	.container-indice {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 60%;
+	}
+}
+
+@media (max-width: 970px) {
+	.container-indice {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+	}
+}
+
+@media (max-width: 550px) {
+	.container-indice {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
 }
