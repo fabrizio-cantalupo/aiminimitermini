@@ -1307,7 +1307,7 @@ a:hover.back-to-top {
 @media (min-width: 1501px) {
 	.container-indice {
 		display: flex;
-		width: 50%;
+		width: 40%;
 	}	
 }
 
@@ -1334,3 +1334,10 @@ a:hover.back-to-top {
 	justify-content: center;
 	align-items: center;
 }
+
+.center-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+  }
