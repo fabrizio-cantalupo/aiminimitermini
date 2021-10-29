@@ -36,13 +36,18 @@
 	
 	<!-- favicon  -->
     <link rel="icon" href="img/favicon.png">
-
+	
+     <script src="jquery.js"></script> 
+     <script> 
+      $(function(){
+         $("#NavContent").load("LAYOUT_navigazione.html"); 
+        });
+     </script>
+	
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
     <!-- inizio navigazione -->
-      <script>
-	 $( "#nav-content" ).load( "/aiminimitermini/LAYOUT_navigazione.html");
-      </script>
+      <div id="NavContent"></div>
     <!-- fine header -->
 
     <!-- inizio acquista -->
