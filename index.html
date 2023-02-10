@@ -35,7 +35,7 @@
 <body data-spy="scroll" data-target=".fixed-top">
     
     <!-- inizio navigazione -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="background-color: #20bd6e">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="background-color: #2d3b3e">
         <div class="container">
 
             <!-- link home -->
@@ -45,25 +45,25 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault" style="background-color: #20bd6e;">
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault" style="background-color: #2d3b3e;">
                 <ul class="navbar-nav ml-auto">
-		    <li class="nav-item">
+		    <!-- <li class="nav-item">
                         <a class="nav-link page-scroll" href="index.html#indice">Indice</a>
-                    </li>
+                    </li> -->
 			
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="https://www.amazon.it/Promessi-Sposi-minimi-termini-attività/dp/B09HNN3JGZ" target="_blank">Acquista</a>
                     </li>
 		    
 		    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="galleria.html">Galleria</a>
+                        <a class="nav-link page-scroll" href="galleria.html">Illustrazioni</a>
                     </li>
 			
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="attività.html">Attività inclusive</a>
                     </li>
 
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link page-scroll" href="index.html#recensioni">Recensioni</a>
                     </li>
 
@@ -77,7 +77,7 @@
 
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="index.html#contatti">Contatti</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div> <!-- fine riduzione navbar -->
         </div> <!-- fine container -->
@@ -86,12 +86,12 @@
 
 	
     <!-- inizio header -->
-    <div class="header"  style="background-color: #20bd6e">
+    <div class="header">
         <div class="ocean">
-            <div class="wave" style="background-color: #20bd6e;"></div>
+            <div class="wave"></div>
             <div class="wave"></div>
         </div>
-        <div class="container">
+        <div class="container" style="display: flex;">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="text-container">
@@ -100,6 +100,20 @@
                         <p class="p-large">In matematica, ridurre ai minimi termini una frazione significa semplificarla al massimo per ottenerne una equivalente. <br> Ho voluto applicare questa operazione di estrema semplificazione ai classici della letteratura, <br> con l'obbiettivo di creare testi di pari valore. <br> Essenziali, ma di valore. <br> Ciò a vantaggio di tutti i lettori che, per una disabilità o uno svantaggio linguistico, non potrebbero fruirne.</p>
                     </div> <!-- fine container testo -->
                 </div> <!-- fine colonna -->
+                
+                <!-- inizio autrice -->
+                <div class="col-lg-6 prova">
+                    <div class="text-container">
+                        <h1 class="h1-large" style="margin-bottom: 0;">L'autrice</h1>
+                        <p class="p-large">Docente di sostegno nelle scuole secondarie superiori dal 1993, <br> Valentina Milazzo attualmente insegna in una classe dell'Istituto d’Istruzione Superiore Abramo Lincoln di Enna. <br> Da sempre dedita alla didattica speciale, ama il suo lavoro tanto da averlo preferito all’insegnamento delle lingue straniere.</p>
+                    
+                        <div id="statement" class="basic-1">
+                            <img src="img/valentina milazzo.jpeg" alt="Valentina Milazzo">
+                        </div>
+                    </div> <!-- fine colonna -->
+                </div> <!-- fine autrice -->
+                    </div>
+                </div>
             </div> <!-- fine riga -->
         </div> <!-- fine container -->
     </div>
@@ -108,7 +122,7 @@
 
     <!-- inizio acquista -->
     <div  style="display: flex;justify-content: center;margin-top: 3em;">
-        <h3 style="color: #20bd6e">Il libro</h3>
+        <h3 style="color: #2d3b3e">Il libro</h3>
     </div>
     
     <!-- inizio carta -->
@@ -123,21 +137,36 @@
     <!-- fine acquista -->
 
     <!-- inizio indice -->
-    <div style="display: flex;justify-content: center;margin-top: 5em;">
-        <h3 style="color: #20bd6e" id="indice">Indice</h3>
-    </div>
+    <h3 style="color: #2d3b3e;display: flex;justify-content: center;margin-top: 5em;" id="indice">Indice</h3>
 
-    <section class="container-indice">
+    <ul style="display: table;  margin: 0 auto;">
+        <li>Introduzione</li>
+        <li>Parte 1 - Don Abbondio incontra i bravi.</li>
+        <li>Parte 2 - Renzo informa Agne e Lucia che il matrimonio "non s'ha da fare".</div></li>
+        <li>Parte 3 - Fra Cristoforo, la notte degli imbrogli, addio ai monti e Renzo e Lucia lasciano Lecco.</li>
+        <li>Parte 4 - La monaca di Monza.</li>
+        <li>Parte 5 - Renzo a Milano, L'assalto al forno.</li>
+        <li>Parte 6 - Il rapimento di Lucia, l'innominato e il voto di castità.</li>
+        <li>Parte 7 - L'innominato e il cardinale Borromeo, Lucia viene liberata.</li>
+        <li>Parte 8 - Le peste.</li>
+        <li>Parte 9 - Renzo incontra fra Cristoforo e don Rodrigo al lazzaretto.</li>
+        <li>Parte 10 - Renzo incontra Lucia, fra Cristoforo scioglie il voto e le nozze.</li>
+        <li>Attività di verifica e consolidamento</li>
+        <li>Alessandro Manzoni</li>
+        <li>Galleria</li>
+    </ul>
+
+    <!-- <section class="container-indice">
             <img src="img/galleria/indice pagina 1.jpg" class="w-100 shadow-1-strong rounded" alt="Pagina 1 indice" loading="lazy">
                 
             <img src="img/galleria/indice pagina 2.jpg" class="w-100 shadow-1-strong rounded" alt="Pagina 2 indice" loading="lazy">
-    </section>
+    </section> -->
     <!-- fine indice -->
     
     <!-- inizio recensioni -->
 
     <div style="display: flex;justify-content: center;margin-top: 0">
-        <h3 style="color: #20bd6e" id="recensioni">Alcune recensioni</h3>
+        <h3 style="color: #2d3b3e;margin-top: 5em" id="recensioni">Alcune recensioni</h3>
     </div>
 
     <!-- carte -->
@@ -162,29 +191,13 @@
       </div>
     <!-- fine recensioni -->
 
-    <!-- inizio autrice -->
-    <div id="statement" class="basic-1" style="margin-top: 5em">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="text-container">
-                        <h3 style="color: #20bd6e" id="autrice">L'autrice</h3>
-                        <p class="p-large">Docente di sostegno nelle scuole secondarie superiori dal 1993, <br> Valentina Milazzo attualmente insegna in una classe dell'Istituto d’Istruzione Superiore Abramo Lincoln di Enna. <br> Da sempre dedita alla didattica speciale, ama il suo lavoro tanto da averlo preferito all’insegnamento delle lingue straniere.</p>
-                        <img src="img/valentina milazzo.jpeg" alt="Valentina Milazzo" loading="lazy">
-                    </div> <!-- fine cointainer testo -->
-                </div> <!-- fine colonna -->
-            </div> <!-- fine riga -->
-        </div> <!-- fine container -->
-    </div> <!-- fine basic-1 -->
-    <!-- fine autrice -->
-
     <!-- inizio illustratrice -->
     <div id="statement" class="basic-1" style="margin-top: 4em;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="text-container">
-                        <h3 style="color: #20bd6e" id="illustratrice">L'illustratrice</h3>
+                        <h3 style="color: #2d3b3e" id="illustratrice">L'illustratrice</h3>
                         <p class="p-large">Alida Pintus nasce a Enna nel 2001. Inizia da piccola a disegnare per gioco, e le piace così tanto da diventare la sua più grande passione. <br> Diplomata al Liceo Artistico, ha poi frequentato il Master di Concept Art a Bigrock. <br> Attualmente lavora come concept artist e illustratrice freelancer.</p>
                         <img src="img/alida pintus.png" alt="Alida Pintus" loading="lazy">
                     </div> <!-- fine cointainer testo -->
@@ -200,7 +213,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div  style="display: flex;justify-content: center;margin-top: 2em;">
-                        <h3 style="color: #20bd6e" id="contatti">Contatti</h3>
+                        <h3 style="color: #2d3b3e" id="contatti">Contatti</h3>
                     </div>
                     <p class="p-heading">Se desideri avere maggiori informazioni, puoi contattarmi al seguente indirizzo: <a class="blue no-line" href="mailto:valentina.milazzo67@gmail.com">valentina.milazzo67@gmail.com</a></p>
                 </div> <!-- fine colonna -->
@@ -212,7 +225,7 @@
                     <div class="form-container">
                         <form action="mailto:valentina.milazzo67@gmail.com">
                             <div class="form-group">
-                                <button class="form-control-submit-button" style="color: black;">Contattami!</button>
+                                <button class="form-control-submit-button">Contattami!</button>
                             </div>
                         </form>
                     </div> <!-- fine container form -->

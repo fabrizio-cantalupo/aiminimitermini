@@ -24,9 +24,9 @@ Table Of Contents:
 
 /*****************************************
 Colors:
-- Backgrounds, headings text - navy blue #1b1e7b
+- Backgrounds, headings text - navy blue #2d3b3e
 - Backgrounds - light gray 
-- Buttons, icons - blue  #20bd6e
+- Buttons, icons - blue  #2d3b3e
 - Body text - dark gray #6b747b
 ******************************************/
 
@@ -53,17 +53,17 @@ h1 {
 }
 
 h2 {
-	color: #1b1e7b;
+	color: #2d3b3e;
 	font: 600 2.125rem/2.75rem "Clear Sans", sans-serif;
 }
 
 h3 {
-	color: #1b1e7b;
+	color: #2d3b3e;
 	font: 600 1.75rem/2.375rem "Clear Sans", sans-serif;
 }
 
 h4 {
-	color: #1b1e7b;
+	color: #2d3b3e;
 	font: 600 1.5rem/2.125rem "Clear Sans", sans-serif;
 }
 
@@ -122,7 +122,7 @@ a:hover {
 }
 
 .bg-gray {
-	background-color: #bef4d9;
+	background-color: #4B6267;
 }
 
 .frame-decoration {
@@ -141,9 +141,9 @@ a:hover {
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.375rem 2.25rem 1.375rem 2.25rem;
-	border: 1px solid  #20bd6e;
+	border: 1px solid  #2d3b3e;
 	border-radius: 32px;
-	background-color:  #20bd6e;
+	background-color:  #2d3b3e;
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 0.875rem;
@@ -153,18 +153,18 @@ a:hover {
 }
 
 .btn-solid-reg:hover {
-	border: 1px solid  #20bd6e;
+	border: 1px solid  #2d3b3e;
 	background-color: transparent;
-	color:  #20bd6e;
+	color:  #2d3b3e;
 	text-decoration: none;
 }
 
 .btn-solid-lg {
 	display: inline-block;
 	padding: 1.5rem 2.5rem 1.5rem 2.5rem;
-	border: 1px solid  #20bd6e;
+	border: 1px solid  #2d3b3e;
 	border-radius: 32px;
-	background-color:  #20bd6e;
+	background-color:  #2d3b3e;
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 0.875rem;
@@ -174,9 +174,9 @@ a:hover {
 }
 
 .btn-solid-lg:hover {
-	border: 1px solid  #20bd6e;
+	border: 1px solid  #2d3b3e;
 	background-color: transparent;
-	color:  #20bd6e;
+	color:  #2d3b3e;
 	text-decoration: none;
 }
 
@@ -292,7 +292,7 @@ a:hover {
 	color: #6b747b;
 	font-size: 0.875rem;
 	line-height: 1.875rem;
-	transition: all 0.2s;
+	transition: all 0.3s;
 	-webkit-appearance: none; /* removes inner shadow on form inputs on ios safari */
 }
 
@@ -328,7 +328,7 @@ select {
 	color: #6b747b;
 	font-size: 0.875rem;
 	line-height: 1.5rem;
-	transition: all 0.2s;
+	transition: all 0.3s;
 }
 
 .form-control-input:focus,
@@ -358,20 +358,21 @@ input[type='checkbox'] {
 	display: inline-block;
 	width: 100%;
 	height: 3.25rem;
-	border: 1px solid  #20bd6e;
+	border: 1px solid  #2d3b3e;
 	border-radius: 2rem;
-	background-color:  #20bd6e;
+	background-color:  #2d3b3e;
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 0;
 	cursor: pointer;
-	transition: all 0.2s;
+	transition: all 0.3s;
 }
 
 .form-control-submit-button:hover {
-	border: 1px solid #20bd6e;
+	/* border: 1px solid #2d3b3e; */
 	background-color: transparent;
+	color: #2d3b3e;
 }
 
 /* Fade-move Animation For Details Lightbox - Magnific Popup */
@@ -421,7 +422,7 @@ input[type='checkbox'] {
 /*     Navigation     */
 /**********************/
 .navbar {
-	background-color: #1b1e7b;
+	background-color: #2d3b3e;
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 0.875rem;
@@ -457,7 +458,7 @@ input[type='checkbox'] {
 	padding-left: 1rem;
 	overflow-y: auto;
 	visibility: hidden;
-	background-color: #1b1e7b;
+	background-color: #2d3b3e;
 	transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
 	transition: transform .3s ease-in-out, visibility .3s ease-in-out;
 	transition: transform .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
@@ -500,7 +501,7 @@ input[type='checkbox'] {
 }
 
 .navbar .fa-stack-2x {
-	color:  #20bd6e;
+	color:  #2d3b3e;
 	transition: all 0.2s ease;
 }
 
@@ -514,7 +515,7 @@ input[type='checkbox'] {
 }
 
 .navbar .fa-stack:hover .fa-stack-1x {
-	color:  #20bd6e;
+	color:  #2d3b3e;
 }
 
 .navbar .navbar-toggler {
@@ -532,7 +533,7 @@ input[type='checkbox'] {
 	overflow: hidden;
 	padding-top: 6rem;
 	padding-bottom: 17rem;
-	background: #1b1e7b;
+	background: #2d3b3e;
 }
 
 .header .text-container {
@@ -599,8 +600,9 @@ input[type='checkbox'] {
 /*********************/
 /*     Statement     */
 /*********************/
+
 .basic-1 {
-	padding-bottom: 3.75rem;
+	text-align: center;
 }
 
 .basic-1 .text-container {
@@ -678,7 +680,7 @@ input[type='checkbox'] {
 	margin-top: 0.125rem;
 	margin-bottom: 1rem;
 	margin-left: 0;
-	border-top: 0.125rem solid  #20bd6e;
+	border-top: 0.125rem solid  #2d3b3e;
 }
 
 .lightbox-basic h4 {
@@ -691,7 +693,7 @@ input[type='checkbox'] {
 }
 
 .lightbox-basic .list-unstyled .fas {
-	color:  #20bd6e;
+	color:  #2d3b3e;
 	font-size: 0.875rem;
 	line-height: 1.75rem;
 }
@@ -715,7 +717,7 @@ input[type='checkbox'] {
 }
 
 .lightbox-basic .btn-solid-reg.mfp-close:hover {
-	color:  #20bd6e;
+	color:  #2d3b3e;
 }
 /* end of action Button */
 
@@ -792,7 +794,7 @@ input[type='checkbox'] {
 
 .basic-4 .fas {
 	margin-bottom: 1.5rem;
-	color:  #20bd6e;
+	color:  #2d3b3e;
 	font-size: 3.25rem;
 }
 
@@ -847,7 +849,7 @@ input[type='checkbox'] {
 }
 
 .counter #counter .counter-value {
-	color: #1b1e7b;
+	color: #2d3b3e;
 	font-weight: 700;
 	font-size: 3.25rem;
 	line-height: 3.75rem;
@@ -933,7 +935,7 @@ input[type='checkbox'] {
 }
 
 .footer .fa-stack .fa-stack-1x {
-    color: #1b1e7b;
+    color: #2d3b3e;
 	transition: all 0.2s ease;
 }
 
@@ -947,7 +949,7 @@ input[type='checkbox'] {
 }
 
 .footer .fa-stack:hover .fa-stack-2x {
-    color: #1b1e7b;
+    color: #2d3b3e;
 }
 
 
@@ -961,12 +963,12 @@ input[type='checkbox'] {
 }
 
 .copyright .p-small {
-	color: #92989c;
+	color: white;
 	text-align: center;
 }
 
 .copyright a {
-	color: #92989c;
+	color: white;
 }
 
 
@@ -982,13 +984,13 @@ a.back-to-top {
 	width: 42px;
 	height: 42px;
 	border-radius: 30px;
-	background: #1b1e7b url("../img/up-arrow.png") no-repeat center 47%;
+	background: #2d3b3e url("../img/up-arrow.png") no-repeat center 47%;
 	background-size: 18px 18px;
 	text-indent: -9999px;
 }
 
 a:hover.back-to-top {
-	background-color:  #20bd6e; 
+	background-color:  #2d3b3e; 
 }
 
 
@@ -1061,7 +1063,7 @@ a:hover.back-to-top {
 	/* Navigation */
 	.navbar {
 		padding-top: 1.75rem;
-		background-color: transparent;
+		background-color: #2d3b3e;
 		box-shadow: none;
 		transition: all 0.2s;
 	}
@@ -1069,7 +1071,7 @@ a:hover.back-to-top {
 	.navbar.top-nav-collapse {
 		padding-top: 0.625rem;
 		padding-bottom: 0.625rem;
-		background-color: #1b1e7b;
+		background-color: #2d3b3e;
 		box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.025);
 	}
 
